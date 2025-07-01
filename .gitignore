@@ -1,4 +1,6 @@
 node_modules
+.react-email/
+out/
 build
 npm-debug.log
 .env

@@ -157,15 +157,15 @@ export default function SingleColumnHiringEmail() {
               on resumes. Science sees it as a royal waste of time.
             </Text>
             <Text style={paragraphStyle}>
-              Here’s a quick article to further make our case: Forbes article:
-              70% of applicants admit admit to lying on their resumes{" "}
+              Here’s a quick article to further make our case: 70% of applicants
+              admit to lying on their resumes{" "}
               <a href="https://resumelab.com/career-advice/lying-to-get-a-job">
-                (Click here)
+                (click here)
               </a>
             </Text>
             <Heading as="h3" style={heading3Style}>
               So, What Actually Predicts Performance? (While Keeping the Process
-              Clean)
+              Lean)
             </Heading>
             <Text
               style={{
@@ -187,12 +187,12 @@ export default function SingleColumnHiringEmail() {
                 <Text style={paragraphStyle2}>
                   List the top 3 most critical hard skills someone in the role
                   needs to succeed. Forget the “curse word” soft skills—they’re
-                  nice to have, but they don’t belong at the top of the funnel).
+                  nice to have, but they don’t belong at the top of the funnel.
                 </Text>
               </li>
               <li>
                 <Text style={paragraphStyle2}>
-                  Test for those 3 skills. No yes/no questions allowed).
+                  Test for those 3 skills. No yes/no questions allowed.
                 </Text>
               </li>
               <li>
@@ -250,7 +250,7 @@ export default function SingleColumnHiringEmail() {
                 <ul>
                   <li>
                     <Text style={paragraphStyle2}>
-                      Why are you interested in this role
+                      Why are you interested in this role?
                     </Text>
                   </li>
                   <li>
@@ -262,7 +262,7 @@ export default function SingleColumnHiringEmail() {
               </li>
             </ul>
             <Text style={paragraphStyle2}>
-              These 30-minute interviews help us assess real-world experience,
+              These 30-minutes interviews help us assess real-world experience,
               role knowledge, and candidate integrity. We must attach a number
               to everything we do here. Top performers move on, the rest receive
               a “thanks for applying” email.{" "}
@@ -301,7 +301,7 @@ export default function SingleColumnHiringEmail() {
               At Resorsi, we have effectively built our LATAM talent pipeline by
               leveraging these research findings. Our candidates undergo pre-
               screening with validated assessments, structured interviews, and
-              role- fit diagnostics.
+              role-fit diagnostics.
             </Text>
             <Text style={{ ...paragraphStyle2, padding: "10px 0" }}>
               As a result, we achieve a retention rate of over 90% for the
@@ -351,7 +351,7 @@ export default function SingleColumnHiringEmail() {
                       borderRadius: "60px",
                       ...genStyle,
                     }}
-                    href="https://example.com/screening"
+                    href="https://calendly.com/federicow-sk4/book-a-guaranteed-talent-call"
                   >
                     Click Here
                   </Button>

@@ -78,25 +78,36 @@ export default function SingleColumnHiringEmail() {
               borderRadius: "0 0 40px 40px",
             }}
           >
-            <Container style={{ height: "100px", width: "100%", maxWidth: "700px", padding: "0 20px" }}>
+            <Container
+              style={{
+                height: "100px",
+                width: "100%",
+                maxWidth: "700px",
+                padding: "0 20px",
+              }}
+            >
               <Row>
                 <Column
                   style={{ textAlign: "left", height: "100px", width: "100%" }}
                 >
-                  <Img
-                    src="https://wuoirshnpbhzzuxhtime.supabase.co/storage/v1/object/public/assets//logo-nobackgroundblack.png"
-                    alt="Resorsi Logo"
-                    style={{ height: "100%", width: "auto" }}
-                  />
+                  <a href="https://resorsi.com">
+                    <Img
+                      src="https://wuoirshnpbhzzuxhtime.supabase.co/storage/v1/object/public/assets//logo-nobackgroundblack.png"
+                      alt="Resorsi Logo"
+                      style={{ height: "100%", width: "auto" }}
+                    />
+                  </a>
                 </Column>
                 <Column
                   style={{ height: "150px", width: "100%", textAlign: "right" }}
                 >
-                  <Img
-                    src="https://wuoirshnpbhzzuxhtime.supabase.co/storage/v1/object/public/assets//globalpostad.png"
-                    alt="Team Illustration"
-                    style={{ height: "100%", width: "auto" }}
-                  />
+                  <a href="https://resorsi.com">
+                    <Img
+                      src="https://wuoirshnpbhzzuxhtime.supabase.co/storage/v1/object/public/assets//globalpostad.png"
+                      alt="Team Illustration"
+                      style={{ height: "100%", width: "auto" }}
+                    />
+                  </a>
                 </Column>
               </Row>
             </Container>
@@ -312,7 +323,7 @@ export default function SingleColumnHiringEmail() {
               marginTop: "20px",
             }}
           >
-            <Container style={{ padding: "0 20px" }}>
+            <Container style={{ padding: "0 20px", maxWidth: "700px" }}>
               <Row>
                 <Column style={{ textAlign: "left", width: "100%" }}>
                   <Text
